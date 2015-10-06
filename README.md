@@ -6,7 +6,7 @@ Scripts and instructions for deploying [Fabricator](http://fbrctr.github.io) wit
 
 Azure Web Service runs on Windows. In Windows, the maximum allowed length for a file path is 260 characters: npm@2, the version currently bundled with node, will nest all dependencies of dependencies in a folder structure that can easily blow past this limit. npm@3, currently in beta as of writing this, will install all dependencies and their dependencies in a flat structure, mitigating this issue.
 
-Additionally, Azure Web apps are designed to build and run node projects that start a server. The Fabricator project builds a static html site, so a few additional deployment and configuration tweaks are necessary to build and serve the static directory.
+Additionally, Azure Web Apps are designed to build and run node projects that start a server. The Fabricator project builds a static HTML site, so a few additional deployment and configuration tweaks are necessary to build and serve the static directory.
 
 ## Instructions
 
